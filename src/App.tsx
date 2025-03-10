@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
 function App() {
+
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
+                <p>Draft Day</p>
             </header>
+            <div className="content-div">
+                <div className="api-player-lookup">
+                    <p>Api Player Lookup</p>
+                </div>
+                <div className="selected-player">
+                    <p>Selected player</p>
+                </div>
+            </div>
         </div>
     );
 }
