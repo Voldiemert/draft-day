@@ -5,6 +5,8 @@ function App() {
 
     return (
         // Adding a comment to show someone how to get through a git merge state
+        // Again
+    
         <div className="App">
             <header className="App-header">
                 <p>Draft Day</p>
