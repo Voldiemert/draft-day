@@ -4,6 +4,7 @@ import './App.scss';
 
 function App() {
     return (
+        // Adding a comment to show someone how to get through a git merge state
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
